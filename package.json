@@ -1,0 +1,27 @@
+{
+    "name": "cli-url-css-selector",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "jest --watchAll"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@jest/globals": "^29.7.0",
+        "@types/figlet": "^1.7.0",
+        "@types/jest": "^29.5.14",
+        "@types/node": "^22.8.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.2.5",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.3"
+    },
+    "dependencies": {
+        "cheerio": "^1.0.0",
+        "commander": "^12.1.0",
+        "figlet": "^1.8.0"
+    }
+}
