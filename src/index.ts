@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import figlet from "figlet";
 import commander from "commander";
 import { fetchData, getHtmlTextFromSelector } from "./util";
@@ -42,3 +44,7 @@ const init = async () => {
 };
 
 init();
+
+if (!process.argv.slice(2).length) {
+    program.outputHelp();
+}
