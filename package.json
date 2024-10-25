@@ -2,9 +2,12 @@
     "name": "cli-url-css-selector",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "/dist/index.js",
+    "bin": {
+        "url-css-selector": "/dist/index.js"
+    },
     "scripts": {
-        "build": "tsc",
+        "build": "tsc --project tsconfig.build.json",
         "test": "jest --watchAll"
     },
     "author": "",
